@@ -35,9 +35,9 @@ def login():
     username = request.form.get("username")
     password = request.form.get("password")
     if username in USERS and USERS[username] == password:
-        return render_template_string(html_form, message="✅ Login successful!")
+        return render_template_string(html_form, message="Login successful!")
     else:
-        return render_template_string(html_form, message="❌ Invalid login.")
+        return render_template_string(html_form, message="Invalid login.")
 
 if __name__ == "__main__":
     app.run(debug=True)
