@@ -14,3 +14,6 @@ How to use it?
 USE IT ONLY ON YOUR PRIVATE NETWORKS
 I AM NOT RESPONSIBLE FOR ANY HARM DONE WITH THIS TOOL
 
+https://github.com/danielmiessler/SecLists/blob/master/Passwords/Common-Credentials/100k-most-used-passwords-NCSC.txt - a really good wordlist to use with this tool
+
+By Maciusk
