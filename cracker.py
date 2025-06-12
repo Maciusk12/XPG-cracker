@@ -1,7 +1,7 @@
 import requests
 from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor, as_completed
-print("XPG Cracker v1.0")
+print("XPG Cracker v1.1")
 delay = 1 
 
 url = input("Login URL? (e.g. http://localhost:5000/login): ")
