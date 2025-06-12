@@ -1,7 +1,7 @@
 Welcome to the XPG Cracker 1.0!
-It is for only Windows compatible (for now)
+It is only Windows compatible (for now)
 It can be used to perform a dictionary password attack on pages
-For now you can perform the atack on the page.py file without modifying the source code
+For now you can perform the atack on the page.py - to use it on other pages, you have to modify the source code
 
 How to use it?
 1. Open up the terminal or powershell
