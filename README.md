@@ -1,10 +1,11 @@
 Welcome to the XPG Cracker 1.0!
 It is only Windows compatible (for now).
 It can be used to perform a dictionary password attack on pages.
-For now you can perform the atack on the page.py - to use it on other pages, you have to modify the source code.
-  It uses multiple requests in parallel.
+For now you can perform the atack on the page.py (located in the repository) - to use it on other pages, you have to modify the source code.
+
+It uses multiple requests in parallel.
 The speed varies on the amout of workers you choose, i've managed to get around a 600 passes/sec with 300 workers
-  !WARNING! Too many workers might cause your device to crash!
+!WARNING! Too many workers might cause your device to crash!
 
 How to launch the test page?
 1. Open up terminal or powershell (don't turn it off when testing)
