@@ -8,7 +8,7 @@ The speed varies on the amout of workers you choose, i've managed to get around 
 !WARNING! Too many workers might cause your device to crash!
 
 How to launch the test page?
-1. Open up terminal or powershell (don't turn it off when testing)
+1. Open up terminal or powershell (don't turn it off or close it when testing)
 2. Make sure you have python installed
 3. To launch it make sure you are in the same directory as the script
 4. Use python page.py to start
