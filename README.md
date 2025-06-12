@@ -16,7 +16,7 @@ How to use the cracker?
 2. Make sure you have python installed
 3. To launch it make sure you are in the same directory as the script
 4. Use python cracker.py to start the menu
-5. Choose all the parameters - the page, the username, the wordlist, and the amount of workers
+5. Choose all the parameters - the page, the username, the wordlist (use wordlists in the same folder as the cracker, I'm not sure if it works with paths), and the amount of workers
 6. Wait for it to find the password, it'll print it out when it'll find it
 
 USE IT ONLY ON YOUR PRIVATE NETWORKS.
