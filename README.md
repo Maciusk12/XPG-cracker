@@ -3,7 +3,14 @@ It is only Windows compatible (for now)
 It can be used to perform a dictionary password attack on pages
 For now you can perform the atack on the page.py - to use it on other pages, you have to modify the source code
 
-How to use it?
+How to launch the test page?
+1. Open up terminal or powershell (don't turn it off when testing)
+2. Make sure you have python installed
+3. To launch it make sure you are in the same directory as the script
+4. Use python page.py to start
+5. Check http://127.0.0.1:5000/ in your browser to see if it works
+
+How to use the cracker?
 1. Open up the terminal or powershell
 2. Make sure you have python installed
 3. To launch it make sure you are in the same directory as the script
