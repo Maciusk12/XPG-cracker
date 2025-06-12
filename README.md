@@ -12,7 +12,7 @@ How to launch the test page?
 2. Make sure you have python installed
 3. To launch it make sure you are in the same directory as the script
 4. Use python page.py to start
-5. Check http://127.0.0.1:5000/ in your browser to see if it works
+5. Check the address where it was hosted on eg. http://127.0.0.1:5000/ in your browser to see if it works
 
 How to use the cracker?
 1. Open up the terminal or powershell
