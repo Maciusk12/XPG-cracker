@@ -1,4 +1,4 @@
-Welcome to the XPG Cracker 1.0!
+Welcome to the XPG Cracker 1.0 repo!
 It is only Windows compatible (for now).
 It can be used to perform a dictionary password attack on pages.
 For now you can perform the atack on the page.py (located in the repository) - to use it on other pages, you have to modify the source code.
