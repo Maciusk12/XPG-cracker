@@ -4,7 +4,7 @@ It can be used to perform a dictionary password attack on pages.
 For now you can perform the atack on the page.py (located in the repository) - to use it on other pages, you have to modify the source code.
 
 It uses multiple requests in parallel.
-The speed varies on the amout of workers you choose, i've managed to get around a 600 passes/sec with 300 workers
+The speed varies on the amout of workers you choose, i've managed to get around a 400 passes/sec with 10 workers
 !WARNING! Too many workers might cause your device to crash!
 
 How to launch the test page?
