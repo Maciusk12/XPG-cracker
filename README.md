@@ -5,7 +5,7 @@ For now you can perform the atack on the page.py (located in the repository) - t
 
 It uses multiple requests in parallel.
 The speed varies on the amout of workers you choose, i've managed to get around a 400 passes/sec with 10 workers
-!WARNING! Too many workers might cause your device to crash!
+!WARNING! Too many workers might cause your device to lag!
 
 How to launch the test page?
 1. Open up terminal or powershell (don't turn it off or close it when testing)
