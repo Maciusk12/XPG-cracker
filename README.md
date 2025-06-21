@@ -28,10 +28,5 @@ USE IT ONLY ON YOUR PRIVATE NETWORKS.
 I AM NOT RESPONSIBLE FOR ANY HARM DONE WITH THIS TOOL.
 
 https://github.com/danielmiessler/SecLists/blob/master/Passwords/Common-Credentials/100k-most-used-passwords-NCSC.txt - a really good wordlist to use with this tool.
-
-versions 1.2 1.3 1.4 in plans
-1.2 - bruteforce mode
-1.3 - hash support
-1.4 - ssh support 
-
+ 
 By Maciusk
