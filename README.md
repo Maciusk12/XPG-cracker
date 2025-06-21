@@ -7,6 +7,8 @@ It uses multiple requests in parallel.
 The speed varies on the amout of workers you choose, i've managed to get around a 400 passes/sec with 10 workers
 !WARNING! Too many workers might cause your device to lag!
 
+To install libraries use pip install paramiko tqdm
+
 How to launch the test page?
 1. Open up terminal or powershell (don't turn it off or close it when testing)
 2. Make sure you have python installed
